@@ -1,7 +1,111 @@
-<!DOCTYPE html>
 <html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="./style.css">
+
+        <style>
+            .video-container {
+                position: relative;
+                padding-bottom: 56.25%; /* 16:9 */
+                height: 0;
+            }
+            .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+<header>
+    <div class="header-banner">
+        <h1>Late Night: Delibrium Reginae (Savage)</h1>
+    </div>
+</header>
 <body>
-<h1>Hello World</h1>
-<p>Test Page</p>
+<div class="container">
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-sm-6">
+      
+      <div>
+        <h2> Trinity Seeker</h2>
+        <p>The first boss of Delibrium Reginae (Savage), quite similar to normal mode with a few new mechanics and the mechanics you've already seen from normal but faster. Something uwu owo test
+        </p>
+        <br>
+        <p>Has 3 Major Mechanics (That Ashelia can remember)</p>
+        <ul>
+          <li>Slashes</li>
+          <li>Dashes</li>
+          <li>Gaze Orb and Expanding AoE</li>
+        </ul> 
+
+
+      </div>
+    </div>
+
+    <div class="col-sm-6">
+      
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qsJfkQKixjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+    <div class="row">
+      <div class="col-4">
+        <div class="list-group" id="myList" role="tablist">
+          <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#home" role="tab">Slashes</a>
+          <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#profile" role="tab">Dashes</a>
+          <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#messages" role="tab">Petrify Orb and Expanding AoE</a>
+          <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#messages" role="tab">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">Some Mechanic</h5>
+            </div>
+            <p class="mb-1">Do mechanic </p>
+            <small>        
+              <ul>
+              <li>Check something</li>
+              <li>Maybe</li>
+              <li>:(</li>
+            </ul> 
+          </small>
+          </a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content">
+          <div class="tab-pane active" id="home" role="tabpanel">
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/takxWH-FoBI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="tab-pane" id="profile" role="tabpanel">   
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/qsJfkQKixjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="tab-pane" id="messages" role="tabpanel">            
+            <div class="video-container">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/qsJfkQKixjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+
+  
+</div>
+
 </body>
 </html>
+  
